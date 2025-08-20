@@ -149,6 +149,23 @@ body {
     box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
 }
 
+/* CTA group */
+.cta-group {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+}
+
+/* Secondary CTA */
+.cta-button.cta-secondary {
+    background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);
+    box-shadow: 0 4px 15px rgba(46, 204, 113, 0.4);
+}
+
+.cta-button.cta-secondary:hover {
+    box-shadow: 0 6px 20px rgba(46, 204, 113, 0.6);
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
