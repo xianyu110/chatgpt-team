@@ -1,0 +1,37 @@
+# GitHub Pages Jekyll 配置
+title: "ChatGPT Team 自动充值系统"
+description: "ChatGPT Team自动充值系统，快速便捷的团队邀请服务，支持兑换码自动发货"
+url: "https://xianyu110.github.io"
+baseurl: "/chatgpt-team"
+
+# SEO 设置
+lang: zh-CN
+author: "ChatGPT Team 充值系统"
+
+# 社交媒体设置
+social:
+  name: "ChatGPT Team 充值系统"
+  links:
+    - "https://team.xychatai.com/"
+
+# 插件设置
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - .gitignore
+
+# Markdown 设置
+markdown: kramdown
+highlighter: rouge 
